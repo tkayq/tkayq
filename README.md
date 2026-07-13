@@ -9,7 +9,7 @@ PhD Candidate, Theoretical Chemistry — Neuscamman Group, UC Berkeley | 2025–
 
 ## About
 
-I develop electronic structure methods and corresponding performance-oriented scientific software for HPC systems. My work spans method development in variational Monte Carlo (VMC) and local Hartree-Fock theory. I'm especially interested in improving the efficiency of ab initio wave function theories to extend their application to larger systems and regimes wherer immense abmount of singler point calculations are necessary.
+I develop electronic structure methods and corresponding performance-oriented scientific software for HPC systems. My work spans method development in variational Monte Carlo (VMC) and local Hartree-Fock theory. I'm especially interested in improving the efficiency of ab initio wave function theories to extend their application to larger systems and regimes where immense amounts of single point calculations are necessary.
 
 ## Research Interests
 
