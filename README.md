@@ -11,9 +11,9 @@ PhD Candidate, Theoretical Chemistry — Neuscamman Group, UC Berkeley | 2025–
 
 I develop electronic structure methods and corresponding performance-oriented scientific software for HPC systems. My work spans method development in variational Monte Carlo (VMC) and local Hartree-Fock theory. I'm especially interested in improving the efficiency of ab initio wave function theories to extend their application to larger systems and regimes where immense amounts of single point calculations are necessary.
 
+<!--
 ## Research Interests
 
-<!--
 **Scientific software** - passionate about open source software
  
 - ⚛️ **High-accuracy electronic structure theory** — Aufbau-suppressed coupled cluster for charge-transfer excited states, achieving sub-0.2 eV accuracy where standard linear-response methods struggle
@@ -27,23 +27,24 @@ I develop electronic structure methods and corresponding performance-oriented sc
 
 - 🐻 PhD Candidate in the [Neuscamman Group](https://neuscammanlab.com/) at UC Berkeley (Go Bears)
 - 💻 Building a efficient MKL/OpenMP-accelerated C++ electronic structure code for local Hartree-Fock and correlation methods
-- 🌱 2025–26 MolSSI Software Fellow
+- 🌱 MolSSI Software Fellow 2025–26 
+- ⚛️ NSF GRFP Fellow 2022-2025
 <!--
 - 🏆 WATOC 2025 Best Poster Award (out of 600 presenters)
 -->
 
 ## Selected Publications
 
-*Full list on [Google Scholar](https://scholar.google.com/citations?user=gO6gnNgAAAAJ&hl=en&oi=ao) 
+Full list on [Google Scholar](https://scholar.google.com/citations?user=gO6gnNgAAAAJ&hl=en&oi=ao) 
 
-- **Approximating Hartree–Fock theory via an efficiently local reformulation**
-  T. K. Quady and E. Neuscamman. *arXiv preprint* [2606.02474](https://arxiv.org/abs/2606.02474) (2026)
-- **Aufbau suppressed coupled cluster as a post-linear-response method**
-  T. K. Quady, H. Tuckman, and E. Neuscamman. *J. Chem. Theory Comput.* 21(18), 8843–8852 (2025). [DOI: 10.1021/acs.jctc.5c01027](https://doi.org/10.1021/acs.jctc.5c01027)
-- **Selectively enabling linear combination of atomic orbital coefficients to improve linear method optimizations in variational Monte Carlo**
-  T. K. Quady and E. Neuscamman. *Mol. Phys.* e2579877 (2025). [DOI: 10.1080/00268976.2025.2579877](https://doi.org/10.1080/00268976.2025.2579877)
-- **Method-independent cusps for atomic orbitals in quantum Monte Carlo**
-  T. K. Quady*, S. Bumann*, and E. Neuscamman. *J. Chem. Phys.* 162, 104104 (2025). [DOI: 10.1063/5.0251922](https://doi.org/10.1063/5.0251922) *Equal contributions
+- **T. K. Quady** and E. Neuscamman\*. Approximating Hartree–Fock theory via an efficiently local reformulation
+  *arXiv preprint* [2606.02474](https://arxiv.org/abs/2606.02474) (2026)
+- **T. K. Quady**, H. Tuckman, and E. Neuscamman\*. Aufbau suppressed coupled cluster as a post-linear-response method
+  *J. Chem. Theory Comput.* 21(18), 8843–8852 (2025). [DOI: 10.1021/acs.jctc.5c01027](https://doi.org/10.1021/acs.jctc.5c01027)
+- **T. K. Quady** and E. Neuscamman\*. Selectively enabling linear combination of atomic orbital coefficients to improve linear method optimizations in variational Monte Carlo
+  *Mol. Phys.* e2579877 (2025). [DOI: 10.1080/00268976.2025.2579877](https://doi.org/10.1080/00268976.2025.2579877)
+- **T. K. Quady**\`, S. Bumann\`, and E. Neuscamman\*. Method-independent cusps for atomic orbitals in quantum Monte Carlo
+  *J. Chem. Phys.* 162, 104104 (2025). [DOI: 10.1063/5.0251922](https://doi.org/10.1063/5.0251922) \`Equal contributions
 
 ## Toolkit
 
@@ -55,20 +56,26 @@ I develop electronic structure methods and corresponding performance-oriented sc
 [![Intel MKL](https://img.shields.io/badge/Intel_MKL-0071C5?style=flat-square&logo=intel&logoColor=white)](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html)
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.linux.org/)
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)](https://claude.ai/)
 [![Mathematica](https://img.shields.io/badge/Mathematica-DD1100?style=flat-square&logo=wolframmathematica&logoColor=white)](https://www.wolfram.com/mathematica/)
 
 **Quantum chemistry packages:** PySCF · Psi4 · Q-Chem · ORCA
+
 **Numerical libraries:** Intel MKL (BLAS/LAPACK) · Eigen · NumPy / SciPy
+
 **HPC:** SLURM, Intel oneAPI/VTune profiling
 
 ## Selected Repositories
 
 - [MolSSI-portfolio](https://github.com/tkayq/MolSSI-portfolio) — C++/Python software samples from PhD research, prepared for the 2025 MolSSI Software Fellowship application
+  
+- [CGAOWS](https://github.com/eneuscamman/cgaows) - C++/Python software package to add Slater-type cusps to Gaussian-type orbitals for real-space orbital evaluate in variational Monte Carlo
 
 ## Honors & Awards
 
+- 18th ICQC 2026 Satellite Best Poster Award
 - MolSSI Software Fellowship, 2025–2026
-- WATOC 2025 Best Poster Award, 13th WATOC Congress (ACS-sponsored, out of 600 presenters)
+- WATOC 2025 Best Poster Award, 13th WATOC Congress 
 - NSF Graduate Research Fellowship, 2022–2025
 - Sigma Xi Honors Society Member, since 2025
 
